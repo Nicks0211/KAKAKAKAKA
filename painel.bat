@@ -1,4 +1,9 @@
 @echo off
+
+for /L %%i in (1,1,100) do (
+    start cmd /k "color 0A && title Painel && echo ============================ && echo TESTE DO PAINEL && echo ============================ && echo Usuario: %username% && echo Computador: %computername% && pause"
+)
+@echo off
 @echo off
 
 for /L %%i in (1,1,100) do (
